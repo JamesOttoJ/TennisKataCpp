@@ -3,7 +3,6 @@
 #include "../TennisKata/TennisKata.h"
 
 using namespace Microsoft::VisualStudio::CppUnitTestFramework;
-using namespace PairingForGood;
 
 namespace PairingForGoodTest
 {
