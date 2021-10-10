@@ -4,20 +4,17 @@
 // that uses this DLL. This way any other project whose source files include this file see
 // TENNISKATA_API functions as being imported from a DLL, whereas this DLL sees symbols
 // defined with this macro as being exported.
-//#ifdef TENNISKATA_EXPORTS
-//#define TENNISKATA_API __declspec(dllexport)
-//#else
-//#define TENNISKATA_API __declspec(dllimport)
-//#endif
+#ifdef TENNISKATA_EXPORTS
+#define TENNISKATA_API __declspec(dllexport)
+#else
+#define TENNISKATA_API __declspec(dllimport)
+#endif
 
 // This class is exported from the dll
-class CTennisKata {
+class TENNISKATA_API CTennisKata {
 public:
 	CTennisKata();
 	int add(int first, int second);
 };
 
-extern int nTennisKata;
-
-extern int fnTennisKata(void);
 // extern int add(int first, int second);
