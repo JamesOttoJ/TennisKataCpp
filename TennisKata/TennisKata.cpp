@@ -6,10 +6,15 @@
 
 
 // This is an example of an exported variable
-TENNISKATA_API int nTennisKata=0;
+int nTennisKata=0;
 
 // This is an example of an exported function.
-TENNISKATA_API int fnTennisKata(void)
+int fnTennisKata(void)
+{
+    return 0;
+}
+
+int CTennisKata::add(int first, int second)
 {
     return 0;
 }
@@ -19,3 +24,5 @@ CTennisKata::CTennisKata()
 {
     return;
 }
+
+

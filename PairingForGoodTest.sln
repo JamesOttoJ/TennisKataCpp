@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.31727.386
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PairingForGoodTest", "PairingForGoodTest.vcxproj", "{EE9CB268-6CD6-4826-8244-8DBEEB97BFE0}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TennisKata", "..\TennisKata\TennisKata.vcxproj", "{0F7448A5-B8FA-4A3A-9F51-F2203EBC374F}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TennisKata", "TennisKata\TennisKata.vcxproj", "{0F7448A5-B8FA-4A3A-9F51-F2203EBC374F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
